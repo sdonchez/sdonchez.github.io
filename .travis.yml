@@ -4,7 +4,7 @@ node_js:
 script:
   - yarn run lint
   - yarn run build
-  - mv CNAME ./dist/CNAME
+  - mv ./CNAME ./dist/CNAME
 deploy:
   provider: pages
   skip_cleanup: true
