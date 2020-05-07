@@ -1,29 +1,10 @@
-# sdonchez.github.io
+# sdonchez.github.io [![Build Status](https://travis-ci.org/sdonchez/sdonchez.github.io.svg?branch=sources)](https://travis-ci.org/sdonchez/sdonchez.github.io)
 
-## Project setup
-```
-npm install
-```
+## Welcome to the repo for my personal website!
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This site is live at http://sdonchez.engineer
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This site is:
+-  Built in Vue.JS
+-  Automated with TravisCI
+-  Hosted through Github Pages
