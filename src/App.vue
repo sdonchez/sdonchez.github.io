@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to my Vue.js App"/>
+    <navigation></navigation>
+	<b-modal 
+		ref="WIP-modal"
+		id="WIP-modal" 
+		title="Site Under Construction" 
+		header-bg-variant="danger"
+		ok-only
+		ok-variant="danger">
+	This site is still under construction! You're welcome to stick around, but you should
+	know that a lot of the links won't work, and it's looking pretty sparse. Check back
+	soon for more content!
+	</b-modal>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navigation from '@/components/Navigation'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	name:'app',
+	components: {
+		Navigation
+		},
+		methods: {
+      showModal() {
+        this.$refs['WIP-modal'].show()
+      },
+      hideModal() {
+        this.$refs['WIP-modal'].hide()
+      }
+    },
+    mounted() {
+      this.showModal();
+    }
+	}
 </script>
 
-<style>
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
