@@ -1,14 +1,14 @@
 <template>
 <div>
-	<b-row class="bg-secondary px-5 py-3">
-		<b-col lg=6>
+	<b-row class="bg-secondary px-5 py-3 text-center">
+		<b-col lg=6 class="text-lg-left">
 			Copyright &copy; 2020&mdash;{{ currentYear }}
 			<div class="d-none d-md-inline px-1"> Stephen Donchez </div>
 			<Icon v-for="site in social" 
 				:key="site.link" 
 				:platform="site"/>
 		</b-col>
-		<b-col lg=6 class="text-right">
+		<b-col lg=6 class="text-lg-right">
 			Built With:
 			<Icon v-for="site in tools" 
 				:key="site.link" 
