@@ -5,6 +5,7 @@ module.exports = {
       .use('vue-loader')
       .loader('vue-loader')
       .tap(options => {
+		  
         options.transformAssetUrls = {
           img: 'src',
           image: 'xlink:href',
@@ -16,7 +17,8 @@ module.exports = {
           'b-card-img-lazy': ['src', 'blank-src'],
           'b-carousel-slide': 'img-src',
           'b-embed': 'src'
-        }
+		},
+		options.compilerOptions.whitespace = 'condense'
 
         return options
       })

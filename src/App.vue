@@ -13,17 +13,21 @@
 	soon for more content!
 	</b-modal>
     <router-view/>
+	<Footer></Footer>
+
   </div>
 </template>
 
 <script>
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 export default {
 	name:'app',
 	title:'Stephen Donchez',
 	components: {
-		Navigation
+		Navigation,
+		Footer
 		},
 		methods: {
       showModal() {
