@@ -1,47 +1,78 @@
 <template>
-<div>
-	<b-row class="bg-secondary px-5 py-3 text-center">
-		<b-col lg=6 class="text-lg-left">
-			Copyright &copy; 2020&mdash;{{ currentYear }}
-			<div class="d-none d-md-inline px-1"> Stephen Donchez </div>
-			<Icon v-for="site in social" 
-				:key="site.link" 
-				:platform="site"/>
-		</b-col>
-		<b-col lg=6 class="text-lg-right">
-			Built With:
-			<Icon v-for="site in tools" 
-				:key="site.link" 
-				:platform="site"/>
-		</b-col>
-	</b-row>
-</div>
+	<div>
+		<b-row class="bg-secondary px-5 py-3 text-center">
+			<b-col lg="6" class="text-lg-left">
+				Copyright &copy; 2020&mdash;{{ currentYear }}
+				<div class="d-none d-md-inline px-1">Stephen Donchez</div>
+				<Icon v-for="site in social" :key="site.link" :platform="site" />
+			</b-col>
+			<b-col lg="6" class="text-lg-right">
+				Built With:
+				<Icon v-for="site in tools" :key="site.link" :platform="site" />
+			</b-col>
+		</b-row>
+	</div>
 </template>
 
 <script>
-import Icon from '@/components/Icon'
+import Icon from "@/components/Icon"
 export default {
-	name: 'siteFooter',
+	name: "siteFooter",
 	components: {
-		Icon
+		Icon,
 	},
 	data: () => {
-		return{
+		return {
 			currentYear: new Date().getFullYear(),
 			social: [
-				{ link:'mailto:sdonchez@villanova.edu', tooltip:'Email', iconType:'fas', icon:'envelope' },
-				{ link:'https://github.com/sdonchez', tooltip:'GitHub', iconType:'fab', icon:'github' },
-				{ link:'https://www.linkedin.com/in/stephen-donchez/', tooltip:'LinkedIn', iconType:'fab', icon:'linkedin' },
+				{
+					link: "mailto:sdonchez@villanova.edu",
+					tooltip: "Email",
+					iconType: "fas",
+					icon: "envelope",
+				},
+				{
+					link: "https://github.com/sdonchez",
+					tooltip: "GitHub",
+					iconType: "fab",
+					icon: "github",
+				},
+				{
+					link: "https://www.linkedin.com/in/stephen-donchez/",
+					tooltip: "LinkedIn",
+					iconType: "fab",
+					icon: "linkedin",
+				},
 			],
 			tools: [
-				{ link:'https://vuejs.org', tooltip:'VueJS', iconType: 'fab', icon:'vuejs'},
-				{ link:'https://github.com/sdonchez/sdonchez.github.io', tooltip:'GitHub', iconType:'fab', icon:'github' },
-				{ link:'https://getbootstrap.com/', tooltip:'Bootstrap', iconType:'fab', icon:'bootstrap'},
-				{ link:'https://fontawesome.com/', tooltip:'FontAwesome', iconType:'fab', icon:'font-awesome'},
-				{ link:'https://npmjs.com', tooltip:'npm', iconType:'fab', icon:'npm'},
-				{ link:'httpa://stackoverflow.com/', tooltip:'Stack Overflow (because what project is complete without it)', iconType:'fab', icon:'stack-overflow'}
-			]
+				{ link: "https://vuejs.org", tooltip: "VueJS", iconType: "fab", icon: "vuejs" },
+				{
+					link: "https://github.com/sdonchez/sdonchez.github.io",
+					tooltip: "GitHub",
+					iconType: "fab",
+					icon: "github",
+				},
+				{
+					link: "https://getbootstrap.com/",
+					tooltip: "Bootstrap",
+					iconType: "fab",
+					icon: "bootstrap",
+				},
+				{
+					link: "https://fontawesome.com/",
+					tooltip: "FontAwesome",
+					iconType: "fab",
+					icon: "font-awesome",
+				},
+				{ link: "https://npmjs.com", tooltip: "npm", iconType: "fab", icon: "npm" },
+				{
+					link: "httpa://stackoverflow.com/",
+					tooltip: "Stack Overflow (because what project is complete without it)",
+					iconType: "fab",
+					icon: "stack-overflow",
+				},
+			],
 		}
-	}
+	},
 }
 </script>
