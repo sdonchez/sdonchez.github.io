@@ -43,14 +43,15 @@ export default {
 
 <style lang="scss" scoped>
 html{
-	font-family: roboto;
+	font-family: 'roboto';
 }
 h1{
-	font-family: roboto-slab;
+	font-family: 'roboto-slab', serif;
 }
 h2{
-	font-family: roboto-slab;
+	font-family: 'roboto-slab', serif;
 	font-size: 4rem;
+	padding-top: 2rem !important;
 }
 p{
 	font-size: 1.4rem;
