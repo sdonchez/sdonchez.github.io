@@ -11,7 +11,8 @@
 		</b-row>
 	</b-aspect>
 	<b-row class="bg-primary px-5" >
-		<h2 class="display-2 mx-auto text-center">A computer engineer, but a whole lot more</h2>
+		<h2 class="mx-auto text-center">A computer engineer, but a whole lot more</h2>
+		<b-row class="copy">
 		<p>My degree says I have a bachelor's of science in Computer Engineering and a
 			minor in Computer Science. But that's just a small part of who I am. Sure,
 			I'm passionate about embedded systems, and am looking forward to putting my
@@ -25,6 +26,7 @@
 			You can also download my <a href="#">resume</a> or visit me on <a href="#">
 			LinkedIn</a> to learn more about my academic and professional activities.
 		</p>
+		</b-row>
 	</b-row>
   </b-container>
 </template>
@@ -40,8 +42,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+html{
+	font-family: roboto;
+}
+h1{
+	font-family: roboto-slab;
+}
+h2{
+	font-family: roboto-slab;
+	font-size: 4rem;
+}
 p{
 	font-size: 1.4rem;
+}
+a:hover{
+	color: white;
 }
 .headshot{
 	text-align: right;
@@ -61,6 +76,11 @@ p{
     }
   }
 }
+
+.copy {
+	padding: 3rem;
+}
+
 #welcome-panel {
   background-image: url("./../assets/oreo.jpg");
   background-repeat: no-repeat;
@@ -78,6 +98,9 @@ p{
 	}
 	h2{
 		font-size: 3rem !important;
+	}
+	.copy{
+		padding: 1rem !important;
 	}
 	
 }
