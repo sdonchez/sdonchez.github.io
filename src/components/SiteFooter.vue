@@ -8,6 +8,12 @@
 				:key="site.link" 
 				:platform="site"/>
 		</b-col>
+		<b-col lg=6 class="text-right">
+			Built With:
+			<Icon v-for="site in tools" 
+				:key="site.link" 
+				:platform="site"/>
+		</b-col>
 	</b-row>
 </div>
 </template>
@@ -27,6 +33,14 @@ export default {
 				{ link:'https://github.com/sdonchez', tooltip:'GitHub', iconType:'fab', icon:'github' },
 				{ link:'https://www.linkedin.com/in/stephen-donchez/', tooltip:'LinkedIn', iconType:'fab', icon:'linkedin' },
 			],
+			tools: [
+				{ link:'https://vuejs.org', tooltip:'VueJS', iconType: 'fab', icon:'vuejs'},
+				{ link:'https://github.com/sdonchez/sdonchez.github.io', tooltip:'GitHub', iconType:'fab', icon:'github' },
+				{ link:'https://getbootstrap.com/', tooltip:'Bootstrap', iconType:'fab', icon:'bootstrap'},
+				{ link:'https://fontawesome.com/', tooltip:'FontAwesome', iconType:'fab', icon:'font-awesome'},
+				{ link:'https://npmjs.com', tooltip:'npm', iconType:'fab', icon:'npm'},
+				{ link:'httpa://stackoverflow.com/', tooltip:'Stack Overflow (because what project is complete without it)', iconType:'fab', icon:'stack-overflow'}
+			]
 		}
 	}
 }
