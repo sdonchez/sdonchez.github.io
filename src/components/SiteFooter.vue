@@ -4,21 +4,21 @@
 		<b-col lg=6>
 			Copyright &copy; 2020&mdash;{{ currentYear }}
 			<div class="d-none d-md-inline px-1"> Stephen Donchez </div>
-			<div v-for="site in social" :key="site.link">
-				<div class="icon">
-					<a :href="site.link" v-b-tooltip :title="site.tooltip">
-						<font-awesome-icon :icon="['site.iconType', 'site.icon']" :style="{color: 'white' }"/>
-					</a>
-				</div>
-			</div>
+			<Icon v-for="site in social" 
+				:key="site.link" 
+				:platform="site"/>
 		</b-col>
 	</b-row>
 </div>
 </template>
 
 <script>
+import Icon from '@/components/Icon'
 export default {
-	name: 'footer',
+	name: 'siteFooter',
+	components: {
+		Icon
+	},
 	data: () => {
 		return{
 			currentYear: new Date().getFullYear(),
@@ -31,10 +31,3 @@ export default {
 	}
 }
 </script>
-
-<style>
-.icon{
-	display:inline;
-	padding-left: 0.5rem;
-}
-</style>
