@@ -62,6 +62,7 @@ export default {
   background-image: url("./../assets/oreo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 800px){
