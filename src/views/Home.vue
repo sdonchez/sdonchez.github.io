@@ -1,15 +1,17 @@
 <template>
   <b-container fluid="true">
-    <b-row align-h='center' align-v="center" class="py-4">
-		<b-col class="text-center">
+    <b-aspect class="panel" id= "welcome-panel" aspect="16:7" align-v="center">
+		<b-row  align-h='center' align-v="center" class="py-4 h-100">
+		<b-col class="headshot">
 			<b-avatar src="./../assets/HeadshotCrop.jpg" size="20rem"></b-avatar>
 		</b-col>
 		<b-col>
-			<h1 class="display-1 text-center">Hi, I'm Stephen Donchez</h1>
+			<h1 class="display-1 welcome-text">Hi, I'm Stephen Donchez</h1>
 		</b-col>
-	</b-row>
+		</b-row>
+	</b-aspect>
 	<b-row class="bg-primary px-5" >
-		<h2 class="text-center">A Computer Engineer, but a whole lot more</h2>
+		<h2 class="display-2 mx-auto">A computer engineer, but a whole lot more</h2>
 		<p>My degree says I have a bachelor's of science in Computer Engineering and a
 			minor in Computer Science. But that's just a small part of who I am. Sure,
 			I'm passionate about embedded systems, and am looking forward to putting my
@@ -36,3 +38,40 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.headshot{
+	text-align: right;
+}
+.welcome-text{
+	text-align: left;
+}
+
+.panel {
+  margin: 0;
+  color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: relative;
+  @for $i from 1 through 4 {
+    &:nth-child(#{$i}) {
+      z-index: 98 - $i
+    }
+  }
+}
+#welcome-panel {
+  background-image: url("./../assets/oreo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 800px){
+	.headshot{
+		text-align: center;
+	}
+
+	.welcome-text{
+		text-align: center
+	}
+	
+}
+</style>

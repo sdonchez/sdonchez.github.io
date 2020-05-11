@@ -21,6 +21,7 @@ import Navigation from '@/components/Navigation'
 
 export default {
 	name:'app',
+	title:'Stephen Donchez',
 	components: {
 		Navigation
 		},
