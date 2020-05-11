@@ -4,20 +4,12 @@
 		<b-col lg=6>
 			Copyright &copy; 2020&mdash;{{ currentYear }}
 			<div class="d-none d-md-inline px-1"> Stephen Donchez </div>
-			<div class="icon">
-				<a href="mailto:sdonchez@villanova.edu" v-b-tooltip title="Email">
-					<font-awesome-icon icon="envelope" :style="{color: 'white' }"/>
-				</a>
-			</div>
-			<div class="icon">
-				<a href="https://github.com/sdonchez" v-b-tooltip title="GitHub">
-					<font-awesome-icon :icon="['fab', 'github']" :style="{color: 'white' }"/>
-				</a>
-			</div>
-			<div class="icon">
-				<a href="https://www.linkedin.com/in/stephen-donchez/" v-b-tooltip title="LinkedIn">
-					<font-awesome-icon :icon="['fab', 'linkedin']" :style="{color: 'white' }"/>
-				</a>
+			<div v-for="site in social" :key="site.link">
+				<div class="icon">
+					<a :href="site.link" v-b-tooltip :title="site.tooltip">
+						<font-awesome-icon :icon="['site.iconType', 'site.icon']" :style="{color: 'white' }"/>
+					</a>
+				</div>
 			</div>
 		</b-col>
 	</b-row>
@@ -29,7 +21,12 @@ export default {
 	name: 'footer',
 	data: () => {
 		return{
-			currentYear: new Date().getFullYear()
+			currentYear: new Date().getFullYear(),
+			social: [
+				{ link:'mailto:sdonchez@villanova.edu', tooltip:'Email', iconType:'fas', icon:'envelope' },
+				{ link:'https://github.com/sdonchez', tooltip:'GitHub', iconType:'fab', icon:'github' },
+				{ link:'https://www.linkedin.com/in/stephen-donchez/', tooltip:'LinkedIn', iconType:'fab', icon:'linkedin' },
+			],
 		}
 	}
 }
