@@ -40,6 +40,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+	font-size: 1.4rem;
+}
 .headshot{
 	text-align: right;
 }
