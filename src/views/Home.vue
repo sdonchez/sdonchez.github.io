@@ -11,7 +11,7 @@
 		</b-row>
 	</b-aspect>
 	<b-row class="bg-primary px-5" >
-		<h2 class="display-2 mx-auto">A computer engineer, but a whole lot more</h2>
+		<h2 class="display-2 mx-auto text-center">A computer engineer, but a whole lot more</h2>
 		<p>My degree says I have a bachelor's of science in Computer Engineering and a
 			minor in Computer Science. But that's just a small part of who I am. Sure,
 			I'm passionate about embedded systems, and am looking forward to putting my
@@ -75,6 +75,9 @@ p{
 
 	.welcome-text{
 		text-align: center
+	}
+	h2{
+		font-size: 3rem !important;
 	}
 	
 }
