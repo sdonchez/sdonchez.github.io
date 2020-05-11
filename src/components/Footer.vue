@@ -2,13 +2,23 @@
 <div>
 	<b-navbar sticky="bottom" class="navbar-dark bg-secondary px-5">
 		<b-row>
-				Copyright &copy; 2020&mdash;{{ currentYear }}<span class="d-none d-md-block">Stephen Donchez </span>
-				<a href="mailto:sdonchez@villanova.edu" v-b-tooltip title="email">
+				Copyright &copy; 2020&mdash;{{ currentYear }}
+				<div class="d-none d-md-block px-1"> Stephen Donchez </div>
+				<div class="icon">
+				<a href="mailto:sdonchez@villanova.edu" v-b-tooltip title="Email">
 					<font-awesome-icon icon="envelope" :style="{color: 'white' }"/>
 				</a>
-				<a href="https://github.com/sdonchez" v-b-tooltip title="github">
+				</div>
+				<div class="icon">
+				<a href="https://github.com/sdonchez" v-b-tooltip title="GitHub">
 					<font-awesome-icon :icon="['fab', 'github']" :style="{color: 'white' }"/>
 				</a>
+				</div>
+				<div class="icon">
+				<a href="https://www.linkedin.com/in/stephen-donchez/" v-b-tooltip title="LinkedIn">
+					<font-awesome-icon :icon="['fab', 'linkedin']" :style="{color: 'white' }"/>
+				</a>
+				</div>
 		</b-row>
 	</b-navbar>
 </div>
@@ -26,9 +36,7 @@ export default {
 </script>
 
 <style>
-@media screen and (max-width: 400px){
-	.mobile-hide{
-		display:none;
-	}
+.icon{
+	padding-left: 0.5rem;
 }
 </style>
