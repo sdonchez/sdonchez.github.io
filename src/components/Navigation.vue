@@ -37,8 +37,8 @@ export default {
 			pages: [
 				{ path: "/", name: "Home", exact: true },
 				{ path: "/education", name: "Education", exact: false },
-				{ path: "/projects", name: "Projects", exact: false },
 				{ path: "/work", name: "Work Experience", exact: false },
+				{ path: "/projects", name: "Projects", exact: false },
 				{ path: "/interests", name: "Interests", exact: false },
 				{ path: "/blog", name: "Blog", exact: false },
 			],
