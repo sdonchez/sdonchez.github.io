@@ -14,8 +14,8 @@
 					</h5>
 				</b-card-header>
 				<b-card-body>
-					<b-row>
-						<b-col lg="4" class="text-center">
+					<b-row align-v="center">
+						<b-col lg="4" class="text-center py-4">
 							<b-avatar src="./../assets/VUENG.jpg" size="15rem"></b-avatar>
 						</b-col>
 						<b-col lg="8">
@@ -63,8 +63,8 @@
 					</h5>
 				</b-card-header>
 				<b-card-body>
-					<b-row>
-						<b-col lg="4" class="text-center" order-lg="2">
+					<b-row align-v="center">
+						<b-col lg="4" class="text-center py-4" order-lg="2">
 							<b-avatar src="./../assets/LVAJaguar.png" size="15rem"></b-avatar>
 						</b-col>
 						<b-col lg="8">
