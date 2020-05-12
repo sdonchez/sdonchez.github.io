@@ -4,21 +4,26 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/education',
-    name: 'Education',
-    component: () => import( '../views/Education.vue')
-  }
+const routes = [
+	{
+		path: '/',
+		name: 'Home',
+		component: Home
+	},
+	{
+		path: '/education',
+		name: 'Education',
+		component: () => import('../views/Education.vue')
+	},
+	{
+		path: '/work',
+		name: 'Work Experience',
+		component: () => import('../views/Work.vue')
+	}
 ]
 
 const router = new VueRouter({
-  routes
+	routes
 })
 
 export default router
