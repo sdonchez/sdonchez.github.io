@@ -24,9 +24,11 @@
 					who I am (in digital form), and to reach out with any questions!
 				</p>
 				<p>
-					You can also download my <a href="SDonchezResumeSept2019.pdf"> resume</a> or
-					visit me on
-					<a href="https://www.linkedin.com/in/stephen-donchez/"> LinkedIn</a>
+					You can also download my
+					<a href="SDonchezResumeSept2019.pdf" target="_blank"> resume</a> or visit me on
+					<a href="https://www.linkedin.com/in/stephen-donchez/" target="_blank">
+						LinkedIn</a
+					>
 					to learn more about my academic and professional activities.
 				</p>
 			</b-row>

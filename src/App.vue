@@ -54,4 +54,7 @@ export default {
 a:hover {
 	color: white;
 }
+p {
+	text-align: justify;
+}
 </style>

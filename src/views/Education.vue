@@ -7,10 +7,10 @@
 						Villanova University
 					</h3>
 					<h5 class="text-center">
-						Bachelor's of Science, Computer Engineering (2016-2020)
+						Bachelor of Science, Computer Engineering (2016-2020)
 					</h5>
 					<h5 class="text-center">
-						Master's of Science, Computer Engineering (2020-2022)
+						Master of Science, Computer Engineering (2020-2022)
 					</h5>
 				</b-card-header>
 				<b-card-body>
@@ -20,14 +20,13 @@
 						</b-col>
 						<b-col lg="8">
 							<p>
-								I earned my Bachelor's of Science in Computer Engineering from Villanova
+								I earned my Bachelor of Science in Computer Engineering from Villanova
 								University's College of Engineering between August of 2016 and May of
 								2020. During this time, I also completed a minor in Computer Science, and
-								worked on a number of intresting projects, which you can check out
-								<a href="projects">here</a>.
+								worked on <a href="#/projects">a number of intresting projects</a>.
 							</p>
 							<p>
-								I am currently pursuing my Master's of Science in Computer Engineering at
+								I am currently pursuing my Master of Science in Computer Engineering at
 								Villanova, and anticipate completing this degree in Spring of 2022. I
 								intend to research Embedded Systems design and FPGA security during my
 								time in this program.
@@ -35,17 +34,17 @@
 							<p>
 								Outside of my curricular activities at Villanova, I've been heavily
 								involved in Villanova University Tech Crew, an on campus event production
-								company. Additionally, I've worked for Villanova's Department of
-								Environmental Health and Safety, providing web and asset management,
-								database development and administration, and assorted related services.
-								You can learn more about my work experiences at Villanova (and elsewhere)
-								<a href="work">here</a>.
+								company. Additionally, I've <a href="#/work">worked</a> for Villanova's
+								Department of Environmental Health and Safety, providing web and asset
+								management, database development and administration, and assorted related
+								services.
 							</p>
 
 							<p>
 								<b-button
 									variant="primary"
 									href="https://www1.villanova.edu/content/university/engineering/academic-programs/departments/electrical-computer.html"
+									target="_blank"
 									>Learn more about Villanova Computer Engineering</b-button
 								>
 							</p>
@@ -77,7 +76,7 @@
 							<p>
 								In addition to my traditional high school diploma, LVA afforded me the
 								opportunity to recieve an International Baccalureate Diploma through the
-								<a href="https://ibo.org/programmes/diploma-programme/"
+								<a href="https://ibo.org/programmes/diploma-programme/" target="_blank"
 									>IB Diploma Programme</a
 								>. This comprehensive program stressed a balance of liberal arts and STEM
 								courses, while also putting an emphasis on community service and
@@ -86,17 +85,22 @@
 							<p>
 								Outside of class, a large portion of my time in High School at LVA was
 								occupied by a club I was heavily invested in, the
-								<a href="https://tsaweb.org/">Technology Student Association.</a> As a
-								member of TSA, I worked to create unique physical products, as well as
-								develop my problem solving skills. I also served as the Pennsylvania State
-								Historian for the organization. This position required me to produce all
-								multimedia content for the statewide organization, as well as work
+								<a href="https://tsaweb.org/" target="_blank"
+									>Technology Student Association.</a
+								>
+								As a member of TSA, I worked to create unique physical products, as well
+								as develop my problem solving skills. I also served as the Pennsylvania
+								State Historian for the organization. This position required me to produce
+								all multimedia content for the statewide organization, as well as work
 								alongside the other 7 state officers to plan and execute our 2,000 person
 								state conference.
 							</p>
 
 							<p>
-								<b-button variant="primary" href="https://lehigh.ss16.sharpschool.com/"
+								<b-button
+									variant="primary"
+									href="https://lehigh.ss16.sharpschool.com/"
+									target="_blank"
 									>Learn more about Lehigh Valley Academy</b-button
 								>
 							</p>
