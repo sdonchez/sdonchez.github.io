@@ -58,9 +58,6 @@ h2 {
 p {
 	font-size: 1.4rem;
 }
-a:hover {
-	color: white;
-}
 .headshot {
 	text-align: right;
 }

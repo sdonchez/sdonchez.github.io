@@ -51,4 +51,7 @@ export default {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: "Roboto", "Roboto Slab";
 }
+a:hover {
+	color: white;
+}
 </style>
