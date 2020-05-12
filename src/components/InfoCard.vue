@@ -14,13 +14,17 @@
 		<b-card-body>
 			<b-row align-v="center">
 				<b-col lg="4" class="text-center py-4" :order-lg="card.iconRight">
-					<b-avatar :src="require(`@/assets/${card.icon}`)" size="15rem"></b-avatar>
+					<b-avatar
+						:src="require(`@/assets/${card.icon}`)"
+						size="15rem"
+						:square="card.avatarSquare"
+					></b-avatar>
 				</b-col>
 				<b-col lg="8">
-					<p v-html="card.p1"></p>
-					<p v-html="card.p2"></p>
-					<p v-html="card.p3"></p>
-					<p>
+					<p v-html="card.p1" v-if="card.p1"></p>
+					<p v-html="card.p2" v-if="card.p2"></p>
+					<p v-html="card.p3" v-if="card.p3"></p>
+					<p v-if="card.link">
 						<b-button variant="primary" :href="card.link" target="_blank">{{
 							card.buttonText
 						}}</b-button>
