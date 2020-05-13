@@ -39,8 +39,7 @@ export default {
 				{ path: "/education", name: "Education", exact: false },
 				{ path: "/work", name: "Work Experience", exact: false },
 				{ path: "/projects", name: "Projects", exact: false },
-				{ path: "/interests", name: "Interests", exact: false },
-				{ path: "/blog", name: "Blog", exact: false },
+				//{ path: "/blog", name: "Blog", exact: false },
 			],
 		}
 	},
