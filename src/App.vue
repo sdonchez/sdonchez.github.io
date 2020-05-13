@@ -1,18 +1,6 @@
 <template>
 	<div id="app" style="overflow-x: hidden;">
 		<navigation></navigation>
-		<b-modal
-			ref="WIP-modal"
-			id="WIP-modal"
-			title="Site Under Construction"
-			header-bg-variant="danger"
-			ok-only
-			ok-variant="danger"
-		>
-			This site is still under construction! You're welcome to stick around, but you
-			should know that a lot of the links won't work, and it's looking pretty sparse.
-			Check back soon for more content!
-		</b-modal>
 		<router-view />
 		<SiteFooter></SiteFooter>
 	</div>

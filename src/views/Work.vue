@@ -119,11 +119,10 @@ export default {
 					subtitle2:
 						"Customer Service Representative and Information Technology Support (2012-2016)",
 					p1:
-						'I\'ve been involved in the martial arts since I was 6 years old (see my\
-						<a href="#/interests">interests page</a> for more). When I entered high\
-						school, I was given the position of Junior Instructor at Hoover Karate\
-						Academy. In this role, I served as an assistant instructor in classes of\
-						all sizes, age groups, and experience levels. When I turned 18, I was\
+						'I\'ve been involved in the martial arts since I was 6 years old. When I\
+						entered high school, I was given the position of Junior Instructor at Hoover\
+						Karate Academy. In this role, I served as an assistant instructor in classes\
+						of all sizes, age groups, and experience levels. When I turned 18, I was\
 						promoted to the rank of "Junior-Senior Instructor", and began teaching my\
 						own classes. I greatly enjoying working with the "junior" or teenaged\
 						students, however I have also taught classes from pre-k through adult.',
