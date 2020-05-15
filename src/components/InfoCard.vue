@@ -21,9 +21,9 @@
 					></b-avatar>
 				</b-col>
 				<b-col lg="8">
-					<p v-html="card.p1" v-if="card.p1"></p>
-					<p v-html="card.p2" v-if="card.p2"></p>
-					<p v-html="card.p3" v-if="card.p3"></p>
+					<div v-for="para in card.text" :key="para">
+						<p v-html="para"></p>
+					</div>
 					<p v-if="card.link">
 						<b-button variant="primary" :href="card.link" target="_blank">{{
 							card.buttonText
