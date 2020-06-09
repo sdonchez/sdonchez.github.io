@@ -4,6 +4,7 @@ import Vue from 'vue'
 import './plugins/bootstrap-vue'
 import App from './App.vue'
 import router from './router'
+import VueGtag from "vue-gtag";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -28,6 +29,10 @@ library.add(faNpm)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
+
+Vue.use(VueGtag, {
+	config: { id: "UA-168922553-1" }
+});
 
 new Vue({
 	router,
