@@ -24,7 +24,7 @@ export default {
 						"I earned my Bachelor of Science in Computer Engineering from Villanova\
 						University's College of Engineering between August of 2016 and May of\
 						2020. During this time, I also completed a minor in Computer Science, and\
-						worked on <a href='#/projects'>a number of intresting projects</a>.",
+						worked on <a href='#/projects'>a number of interesting projects</a>.",
 						"I am currently pursuing my Master of Science in Computer Engineering at\
 						Villanova, and anticipate completing this degree in Spring of 2022. I\
 						intend to research Embedded Systems design and FPGA security during my\
@@ -51,7 +51,7 @@ export default {
 						and I attended there for all 13 years of my primary and secondary\
 						education.",
 						"In addition to my traditional high school diploma, LVA afforded me the\
-						opportunity to recieve an International Baccalureate Diploma through the\
+						opportunity to recieve an International Baccalaureate Diploma through the\
 						<a href='https://ibo.org/programmes/diploma-programme/' target='_blank'\
 							>IB Diploma Programme</a\
 						>. This comprehensive program stressed a balance of liberal arts and STEM\
@@ -69,7 +69,7 @@ export default {
 						alongside the other 7 state officers to plan and execute our 2,000 person\
 						state conference.",
 					],
-					link: "https://lehigh.ss16.sharpschool.com/",
+					link: "https://www.facebook.com/LVARCS/",
 					buttonText: "Learn more about Lehigh Valley Academy",
 					icon: "LVAJaguar.png",
 					iconRight: "2",

@@ -32,7 +32,7 @@ export default {
 						dynamic loading of content. The project was developed following a substantial\
 						design process, including the generation of a highly detailed specification and\
 						preliminary UI design.",
-						"Unforunately, the project's codebase is owned by the university and not publically\
+						"Unfortunately, the project's codebase is owned by the university and not publicly\
 						available. However, I will gladly answer any questions regarding the details of its\
 						implementation.",
 					],
@@ -53,7 +53,7 @@ export default {
 						framework and a bootstraped front-end. The site also utilizes a MySQL/PDO\
 						database system, as well as extensive authentication and authorization gates\
 						to mitigate access to privileged portions of the site.",
-						"While the site's repositor is not publically available, I anticipate being\
+						"While the site's repository is not publicly available, I anticipate being\
 						able to release portions of it to the public in the near future. Check my\
 						<a href='https://github.com/sdonchez/'>github</a> profile to see this work\
 						once it is available.",
@@ -78,8 +78,8 @@ export default {
 						software work. It centered around a Raspberry Pi, which ran a minimized linux\
 						operating system. The project code was authored in C++, and consisted of a\
 						number of subsystems responsible for various portions of the system's\
-						operation. The project harnessed a number of publically available libraries\
-						to perform image processing and hardwre interfaces, including the OpenCV\
+						operation. The project harnessed a number of publicly available libraries\
+						to perform image processing and hardware interfaces, including the OpenCV\
 						library.",
 						"On the hardware side, the project required the use of an infrared camera,\
 						as well as a photogate with custom logic to convert its output to values\
@@ -98,13 +98,13 @@ export default {
 					text: [
 						"One of my earliest major development projects, the HKA Database Management\
 						System was designed in response to a drastic need for improvement to the\
-						school's preexisiting system for tracking student records. It affords users\
+						school's pre-existing system for tracking student records. It affords users\
 						a simple, intuitive interface for managing almost all aspects of the school's\
-						operations, including attendence, student progression through the various\
-						ranks, tution payment, and the generation of assorted administrative\
+						operations, including attendance, student progression through the various\
+						ranks, tuition payment, and the generation of assorted administrative\
 						paperwork. It serves to automate a number of process that were previously done\
 						by hand, saving considerable time for the school's administrative staff.",
-						"The system is built on Microsoft Access, with data located in a seperate\
+						"The system is built on Microsoft Access, with data located in a separate\
 						MySQL database. It implements a custom designed set of authentication\
 						mechanisms (as none were present in Access at the time of development),\
 						and facilitates simultaneous access from both local and remote users to\
