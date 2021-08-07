@@ -17,7 +17,7 @@ export default {
 			cards: [
 				{
 					title: "L3 Harris Technologies (Harris Corporation)",
-					subtitle1: "Systems Engineering Intern (Summer 2020, Summer 2019)",
+					subtitle1: "Systems Engineering Intern (Summer 2020 - present, Summer 2019)",
 					subtitle2: "Software Engineering Intern (Summer 2018)",
 					text: [
 						"The summer after my sophomore year of college, I interned with what was\
@@ -35,14 +35,15 @@ export default {
 						deployment automation. On a more traditional systems engineering note, I\
 						also aided in the production of design documentation for a new EW\
 						platform.",
-						"This past summer, I returned once again to L3Harris (rebranded as the\
+						"In the summer of 2020, I returned once again to L3Harris (rebranded as the\
             result of a merger) as a systems engineering intern. This year, I served\
             in a much more hands on role, spending a lot of time in the lab\
             assisting in efforts to integrate a next generation EW system. In the course\
             of this work, I participated in a wide variety of tests and processes,\
             including conducting comprehensive reviews of vendor designs and\
-            participating in design reviews. Since my return to school this past fall,\
-            I have continued in my role at L3Harris in a part time role."
+            participating in design reviews. I continued in this role part time throughout\
+            the 2020-2021 academic year, full time in the summer of 2021, and anticipate\
+            continuing in a part time capacity throughout the current academic year."
 					],
 					link: "https://www.l3harris.com/about-us",
 					buttonText: "Learn more about L3Harris Technologies",
@@ -90,7 +91,7 @@ export default {
 					title: "Villanova University Department of Environmental Health and Safety",
 					subtitle1: "Student Worker (2016-2020)",
 					text: [
-						"Since my freshman year of college, I have worked with the university's\
+						"Throughout my undergraduate education, I worked with the university's\
 						department of environmental health and safety, providing a wide variety\
 						of technical services (and some decidedly less technical ones, such as\
 						testing safety showers). I began my time with the department aiding in\
@@ -119,7 +120,7 @@ export default {
 					title: "Hoover Karate Academy",
 					subtitle1: "Instructor (2012-Present)",
 					subtitle2:
-						"Customer Service Representative and Information Technology Support (2012-2016)",
+						"Customer Service Representative and Information Technology Support (2012-present)",
 					text: [
 						'I\'ve been involved in the martial arts since I was 6 years old. When I\
 						entered high school, I was given the position of Junior Instructor at Hoover\
