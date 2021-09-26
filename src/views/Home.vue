@@ -25,7 +25,7 @@
 				</p>
 				<p>
 					You can also download my
-					<a href="SDonchezResumeSept2019.pdf" target="_blank"> resume</a> or visit me on
+					<a href="SDonchezResumeSeptember2021.pdf" target="_blank"> resume</a> or visit me on
 					<a href="https://www.linkedin.com/in/stephen-donchez/" target="_blank">
 						LinkedIn</a
 					>
