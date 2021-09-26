@@ -5,6 +5,7 @@
 		</b-row>
 	</b-container>
 </template>
+<!--suppress SpellCheckingInspection -->
 <script>
 import InfoCard from "@/components/InfoCard"
 export default {
@@ -50,7 +51,7 @@ export default {
 						cohesive style, and the effort of maintaining it was beginning to exceed the\
 						effort involved in re-writing it from the ground up.",
 						"The new site, like the ChemCAT project above, is built with the Laravel PHP\
-						framework and a bootstraped front-end. The site also utilizes a MySQL/PDO\
+						framework and a bootstrapped front-end. The site also utilizes a MySQL/PDO\
 						database system, as well as extensive authentication and authorization gates\
 						to mitigate access to privileged portions of the site.",
 						"While the site's repository is not publicly available, I anticipate being\

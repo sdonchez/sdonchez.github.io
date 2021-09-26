@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 html {
-	font-family: "roboto";
+	font-family: "roboto",serif;
 }
 h1 {
 	font-family: "roboto slab", serif;

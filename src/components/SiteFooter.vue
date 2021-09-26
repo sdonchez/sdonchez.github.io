@@ -1,3 +1,4 @@
+<!--suppress SpellCheckingInspection -->
 <template>
 	<div>
 		<b-row class="bg-secondary px-5 py-3 text-center">
@@ -66,7 +67,7 @@ export default {
 				},
 				{ link: "https://npmjs.com", tooltip: "npm", iconType: "fab", icon: "npm" },
 				{
-					link: "httpa://stackoverflow.com/",
+					link: "https://stackoverflow.com/",
 					tooltip: "Stack Overflow (because what project is complete without it)",
 					iconType: "fab",
 					icon: "stack-overflow",

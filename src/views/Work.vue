@@ -42,8 +42,8 @@ export default {
             of this work, I participated in a wide variety of tests and processes,\
             including conducting comprehensive reviews of vendor designs and\
             participating in design reviews. I continued in this role part time throughout\
-            the 2020-2021 academic year, full time in the summer of 2021, and anticipate\
-            continuing in a part time capacity throughout the current academic year."
+            the 2020-2021 academic year, full time in the summer of 2021, and have\
+            resumed work in a part time capacity for the current academic year."
 					],
 					link: "https://www.l3harris.com/about-us",
 					buttonText: "Learn more about L3Harris Technologies",
@@ -127,7 +127,7 @@ export default {
 						Karate Academy. In this role, I served as an assistant instructor in classes\
 						of all sizes, age groups, and experience levels. When I turned 18, I was\
 						promoted to the rank of "Junior-Senior Instructor", and began teaching my\
-						own classes. I greatly enjoying working with the "junior" or teenaged\
+						own classes. I greatly enjoying working with the "junior" or teenage\
 						students, however I have also taught classes from pre-k through adult.',
 						"From there, I transitioned to an extensive period of database work, in which\
 						I created a number of database applications for tracking various aspects of\

@@ -14,7 +14,8 @@ export default {
 		InfoCard,
 	},
 	data: () => {
-		return {
+		// noinspection SpellCheckingInspection
+    return {
 			cards: [
 				{
 					title: "Villanova University",
@@ -27,8 +28,9 @@ export default {
 						worked on <a href='#/projects'>a number of interesting projects</a>.",
 						"I am currently pursuing my Master of Science in Computer Engineering at\
 						Villanova, and anticipate completing this degree in Spring of 2022. I\
-						intend to research Embedded Systems design and FPGA security during my\
-						time in this program.",
+						am researching Embedded Systems design and FPGA security during my\
+						time in this program, with a focus on securing multi-tenant heterogeneous\
+						systems in a cloud environment.",
 						"Outside of my curricular activities at Villanova, I've been heavily\
 						involved in Villanova University Tech Crew, an on campus event production\
 						company. Additionally, I've <a href='#/work'>worked</a> for Villanova's\
@@ -51,7 +53,7 @@ export default {
 						and I attended there for all 13 years of my primary and secondary\
 						education.",
 						"In addition to my traditional high school diploma, LVA afforded me the\
-						opportunity to recieve an International Baccalaureate Diploma through the\
+						opportunity to receive an International Baccalaureate Diploma through the\
 						<a href='https://ibo.org/programmes/diploma-programme/' target='_blank'\
 							>IB Diploma Programme</a\
 						>. This comprehensive program stressed a balance of liberal arts and STEM\

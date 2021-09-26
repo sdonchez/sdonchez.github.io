@@ -7,4 +7,4 @@ This site is live at http://sdonchez.engineer
 This site is:
 -  Built in Vue.JS
 -  Automated with TravisCI
--  Hosted through Github Pages
+-  Hosted through GitHub Pages

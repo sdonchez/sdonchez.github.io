@@ -6,10 +6,12 @@
 	</div>
 </template>
 
+<!--suppress JSUnresolvedFunction -->
 <script>
 import Navigation from "@/components/Navigation"
 import SiteFooter from "@/components/SiteFooter"
 
+// noinspection JSUnusedGlobalSymbols
 export default {
 	name: "app",
 	title: "Stephen Donchez",
@@ -19,7 +21,8 @@ export default {
 	},
 	methods: {
 		showModal() {
-			this.$refs["WIP-modal"].show()
+			// noinspection JSUnresolvedFunction
+      this.$refs["WIP-modal"].show()
 		},
 		hideModal() {
 			this.$refs["WIP-modal"].hide()
@@ -37,7 +40,7 @@ export default {
 #app {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-family: "Roboto", "Roboto Slab";
+	font-family: "Roboto", "Roboto Slab",serif;
 }
 a:hover {
 	color: white;
