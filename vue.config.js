@@ -22,6 +22,7 @@ module.exports = {
 				return options
 			})
 	},
+		publicPath: "/",
 
 	assetsDir: 'src/assets'
 }
