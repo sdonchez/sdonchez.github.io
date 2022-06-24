@@ -14,7 +14,6 @@ export default {
 		InfoCard,
 	},
 	data: () => {
-		// noinspection SpellCheckingInspection
     return {
 			cards: [
 				{
@@ -23,17 +22,17 @@ export default {
 					subtitle2: "Master of Science, Computer Engineering (2020-2022)",
 					text: [
 						"I earned my Bachelor of Science in Computer Engineering from Villanova\
-						University's College of Engineering between August of 2016 and May of\
+						University's College of Engineering between August 2016 and May of\
 						2020. During this time, I also completed a minor in Computer Science, and\
 						worked on <a href='#/projects'>a number of interesting projects</a>.",
-						"I am currently pursuing my Master of Science in Computer Engineering at\
-						Villanova, and anticipate completing this degree in Spring of 2022. I\
-						am researching Embedded Systems design and FPGA security during my\
+						"I then continued on to earn my Master of Science in Computer Engineering at\
+						Villanova, recently completing this degree in Spring of 2022. I\
+						researched Embedded Systems design and FPGA security during my\
 						time in this program, with a focus on securing multi-tenant heterogeneous\
 						systems in a cloud environment.",
-						"Outside of my curricular activities at Villanova, I've been heavily\
+						"Outside my curricular activities at Villanova, I was heavily\
 						involved in Villanova University Tech Crew, an on campus event production\
-						company. Additionally, I've <a href='#/work'>worked</a> for Villanova's\
+						company. Additionally, I <a href='#/work'>worked</a> for Villanova's\
 						Department of Environmental Health and Safety, providing web and asset\
 						management, database development and administration, and assorted related\
 						services.",
@@ -41,6 +40,7 @@ export default {
 					link:
 						"https://www1.villanova.edu/content/university/engineering/academic-programs/departments/electrical-computer.html",
 					buttonText: "Learn more about Villanova Computer Engineering",
+          /*noinspect*/
 					icon: "VUENG.jpg",
 					iconRight: "false",
 				},

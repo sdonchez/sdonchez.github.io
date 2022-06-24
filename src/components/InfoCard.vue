@@ -10,6 +10,9 @@
 			<h5 class="text-center">
 				{{ card.subtitle2 }}
 			</h5>
+      <h5 class="text-center">
+        {{ card.subtitle3 }}
+      </h5>
 		</b-card-header>
 		<b-card-body>
 			<b-row align-v="center">

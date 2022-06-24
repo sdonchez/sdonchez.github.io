@@ -17,8 +17,9 @@ export default {
 			cards: [
 				{
 					title: "L3 Harris Technologies (Harris Corporation)",
-					subtitle1: "Systems Engineering Intern (Summer 2020 - present, Summer 2019)",
-					subtitle2: "Software Engineering Intern (Summer 2018)",
+          subtitle1: "Member of the Engineering Staff/Systems Engineer (June 2022 - Present)",
+					subtitle2: "Systems Engineering Intern (Summer 2020 - 2022, Summer 2019)",
+					subtitle3: "Software Engineering Intern (Summer 2018)",
 					text: [
 						"The summer after my sophomore year of college, I interned with what was\
 						then Harris Corporation (now L3Harris Technologies) as a software\
@@ -42,8 +43,13 @@ export default {
             of this work, I participated in a wide variety of tests and processes,\
             including conducting comprehensive reviews of vendor designs and\
             participating in design reviews. I continued in this role part time throughout\
-            the 2020-2021 academic year, full time in the summer of 2021, and have\
-            resumed work in a part time capacity for the current academic year."
+            the 2020-2021 academic year, full time in the summer of 2021, and \
+            resumed work in a part time capacity for the 2021-2022 academic year.",
+            "Following the completion of my master's degree in May of 2022, I transitioned\
+            back to a full time role with L3Harris, this time in their Integrated Mission\
+            Systems segment, and specifically within their maritime division. In this role,\
+            I work to produce a wide variety of systems providing varied functionality for\
+            Air, Land, Sea, and Space assets both at home and around the world."
 					],
 					link: "https://www.l3harris.com/about-us",
 					buttonText: "Learn more about L3Harris Technologies",
@@ -53,7 +59,7 @@ export default {
 				{
 					title: "Villanova University Tech Crew",
 					subtitle1: "President and Head Technician (2019)",
-					subtitle2: "Various Roles (2016-Present)",
+					subtitle2: "Various Roles (2016-2022)",
 					text: [
 						"Throughout my time in college, I have been heavily involved in Villanova\
 						University Tech Crew, a one of a kind on-campus event production\
@@ -74,10 +80,10 @@ export default {
 						then continued to serve as the organization's president the following\
 						year, which made me directly responsible for both the day to day\
 						operations and the long term development of the $70,000/year organization.",
-						"In addition to these leadership roles, I am one of VUTC's several Head\
-						Technicians. In this capacity, I manage the setup, operation, and\
+						"In addition to these leadership roles, I was one of VUTC's several Head\
+						Technicians. In this capacity, I managed the setup, operation, and\
 						tear-down of complex audio, video, and lighting systems at events of all\
-						scales. In this role, I am directly responsible for supervising a staff of\
+						scales. In this role, I was also directly responsible for supervising a staff of\
 						up to 25 people, as well as interfacing with clients and other university\
 						resources such as public safety, facilities management, and operations\
 						staff.",
