@@ -2,7 +2,7 @@
 
 ## Welcome to the repo for my personal website!
 
-This site is live at http://sdonchez.engineer
+This site is live at https://sdonchez.engineer
 
 This site is:
 -  Built in Vue.JS
