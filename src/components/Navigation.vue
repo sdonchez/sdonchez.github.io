@@ -36,9 +36,10 @@ export default {
 		return {
 			pages: [
 				{ path: "/", name: "Home", exact: true },
+        { path: "/work", name: "Work Experience", exact: false },
+        { path: "/projects", name: "Projects", exact: false },
 				{ path: "/education", name: "Education", exact: false },
-				{ path: "/work", name: "Work Experience", exact: false },
-				{ path: "/projects", name: "Projects", exact: false },
+        { path: "/publications", name: "Publications", exact: false },
 				//{ path: "/blog", name: "Blog", exact: false },
 			],
 		}

@@ -20,13 +20,13 @@ export default {
 		SiteFooter,
 	},
 	methods: {
-		showModal() {
-			// noinspection JSUnresolvedFunction
-      this.$refs["WIP-modal"].show()
-		},
-		hideModal() {
-			this.$refs["WIP-modal"].hide()
-		},
+		// showModal() {
+		// 	// noinspection JSUnresolvedFunction
+    //   this.$refs["WIP-modal"].show()
+		// },
+		// hideModal() {
+		// 	this.$refs["WIP-modal"].hide()
+		// },
 	},
 	mounted() {
 		this.showModal()
@@ -35,7 +35,9 @@ export default {
 </script>
 
 <style lang="scss">
+//noinspection CssUnknownTarget
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+//noinspection CssUnknownTarget
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 #app {
 	-webkit-font-smoothing: antialiased;

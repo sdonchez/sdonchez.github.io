@@ -27,7 +27,7 @@
 					<div v-for="para in card.text" :key="para">
 						<p v-html="para"></p>
 					</div>
-					<p v-if="card.link">
+					<p v-if="card.link" class = "text-center">
 						<b-button variant="primary" :href="card.link" target="_blank">{{
 							card.buttonText
 						}}</b-button>
