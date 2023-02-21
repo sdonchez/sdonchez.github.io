@@ -6,5 +6,5 @@ This site is live at https://sdonchez.engineer (as well as https://sdonchez.gith
 
 This site is:
 -  Built in Vue.JS
--  Automated with TravisCI
+-  Styled with Bootstrap
 -  Hosted through GitHub Pages
