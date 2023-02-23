@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<b-navbar toggleable="lg" class="navbar-dark bg-primary px-5">
-			<b-navbar-brand href="#">Stephen G. Donchez</b-navbar-brand>
+			<b-navbar-brand href="/#/">Stephen G. Donchez</b-navbar-brand>
 
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
