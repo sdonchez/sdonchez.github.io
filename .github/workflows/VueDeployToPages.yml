@@ -1,7 +1,10 @@
+# This workflow builds the site and pushes the build to the gh-pages branch. From there, the GitHub Pages deployment action takes it live.
 name: Build Vue
 on: 
   workflow_dispatch:
-  push:
+  # Triggers the workflow on release events, but not draft ones
+  release:
+    types: [published]
 jobs:
   build_vue:
     runs-on: ubuntu-latest
