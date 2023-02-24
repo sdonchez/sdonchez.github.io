@@ -34,6 +34,8 @@ Vue.use(VueGtag, {
 	config: { id: "UA-168922553-1" }
 });
 
+Vue.prototype.$resumeFile = "SDonchezResumeJune2022.pdf"
+
 new Vue({
 	router,
 	render: h => h(App)

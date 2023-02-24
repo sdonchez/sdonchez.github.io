@@ -6,6 +6,7 @@
 				Copyright &copy; 2020&mdash;{{ currentYear }}
 				<div class="d-none d-md-inline px-1">Stephen Donchez</div>
 				<Icon v-for="site in social" :key="site.link" :platform="site" />
+        <span class="px-2"><a :href="this.$resumeFile" target="_blank" class="text-white">Resume</a></span>
 			</b-col>
 			<b-col lg="6" class="text-lg-right">
 				Built With:
@@ -43,7 +44,7 @@ export default {
 					tooltip: "LinkedIn",
 					iconType: "fab",
 					icon: "linkedin",
-				},
+				}
 			],
 			tools: [
 				{ link: "https://vuejs.org", tooltip: "VueJS", iconType: "fab", icon: "vuejs" },
