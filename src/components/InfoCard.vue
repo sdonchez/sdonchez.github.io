@@ -17,13 +17,13 @@
 		<b-card-body>
 			<b-row align-v="center">
 				<b-col lg="4" class="text-center py-4" :order-lg="card.iconRight">
-					<b-avatar
+					<b-avatar v-if="card.icon"
 						:src="require(`@/assets/${card.icon}`)"
 						size="15rem"
 						:square="card.avatarSquare"
 					></b-avatar>
 				</b-col>
-				<b-col lg="8">
+				<b-col lg="8" v-if="card.icon">
 					<div v-for="para in card.text" :key="para">
 						<p v-html="para"></p>
 					</div>
@@ -33,6 +33,16 @@
 						}}</b-button>
 					</p>
 				</b-col>
+        <b-col lg="12" v-else>
+          <div v-for="para in card.text" :key="para">
+            <p v-html="para"></p>
+          </div>
+          <p v-if="card.link" class = "text-center">
+            <b-button variant="primary" :href="card.link" target="_blank">{{
+                card.buttonText
+              }}</b-button>
+          </p>
+        </b-col>
 			</b-row>
 		</b-card-body>
 	</b-card>
