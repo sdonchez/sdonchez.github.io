@@ -29,7 +29,7 @@ export default {
 		// },
 	},
 	mounted() {
-		this.showModal()
+		// this.showModal()
 	},
 }
 </script>

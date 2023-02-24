@@ -8,7 +8,7 @@
 <script>
 import InfoCard from "@/components/InfoCard"
 export default {
-	name: "Work Experience",
+	name: "WorkExperience",
 	components: {
 		InfoCard,
 	},
