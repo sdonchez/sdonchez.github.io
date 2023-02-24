@@ -17,3 +17,4 @@ jobs:
         username: 'sdonchez'
         reponame: 'sdonchez.github.io'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        cname: sdonchez.engineer
