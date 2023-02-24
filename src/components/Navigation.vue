@@ -40,6 +40,7 @@ export default {
         { path: "/projects", name: "Projects", exact: false },
 				{ path: "/education", name: "Education", exact: false },
         { path: "/publications", name: "Publications", exact: false },
+        { path: "/skills", name: "Skills", exact: false },
 				//{ path: "/blog", name: "Blog", exact: false },
 			],
 		}
