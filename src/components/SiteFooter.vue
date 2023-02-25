@@ -47,7 +47,11 @@ export default {
 				}
 			],
 			tools: [
-				{ link: "https://vuejs.org", tooltip: "VueJS", iconType: "fab", icon: "vuejs" },
+				{
+          link: "https://vuejs.org",
+          tooltip: "VueJS",
+          iconType: "fab",
+          icon: "vuejs" },
 				{
 					link: "https://github.com/sdonchez/sdonchez.github.io",
 					tooltip: "GitHub",

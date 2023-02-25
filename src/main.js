@@ -31,8 +31,10 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 Vue.use(VueGtag, {
-	config: { id: "UA-168922553-1" }
-});
+	config: {
+		id: "G-TT76YTVCYJ"
+	}
+}, router);
 
 Vue.prototype.$resumeFile = "SDonchezResumeJune2022.pdf"
 
