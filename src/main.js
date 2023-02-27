@@ -36,7 +36,7 @@ Vue.use(VueGtag, {
 	}
 }, router);
 
-Vue.prototype.$resumeFile = "SDonchezResumeJune2022.pdf"
+Vue.prototype.$resumeFile = "SDonchezResumeFeb23.pdf"
 
 new Vue({
 	router,
