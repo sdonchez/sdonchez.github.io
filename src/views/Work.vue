@@ -29,8 +29,13 @@ export default {
 
             "Following the completion of my master's degree in May of 2022, I transitioned  back to a full time role with L3Harris, this time in their Integrated Mission Systems segment, and specifically as a cleared systems engineer within their Cyber Systems business. In this role, I work to produce a wide variety of systems providing varied functionality for Air, Land, Sea, and Space assets both at home and around the world."
 					],
-					link: "https://www.l3harris.com/about-us",
-					buttonText: "Learn more about L3Harris Technologies",
+          actions: [
+            {
+              link: "https://www.l3harris.com/about-us",
+              text: "Learn more about L3Harris Technologies",
+            }
+          ],
+
 					icon: "L3Harris.jpg",
 					iconRight: "false",
 				},
@@ -45,8 +50,12 @@ export default {
 
 						"In addition to these leadership roles, I was one of VUTC's several Head Technicians. In this capacity, I managed the setup, operation, and	tear-down of complex audio, video, and lighting systems at events of all	scales. In this role, I was also directly responsible for supervising a staff of up to 25 people, as well as interfacing with clients and other university resources such as public safety, facilities management, and operations	staff.",
 					],
-					link: "https://vutc.com",
-					buttonText: "Learn more about Villanova University Tech Crew",
+          actions: [
+            {
+              link: "https://vutc.com",
+              text: "Learn more about Villanova University Tech Crew",
+            }
+          ],
 					icon: "VUTC.png",
 					iconRight: "2",
 				},
@@ -60,10 +69,14 @@ export default {
 
 						'In the last two years of my undergraduate career, I worked with the department in conjunction with another student worker to develop an in house chemical asset management	solution. That project (and others) is described in detail on my <a href="#/projects">projects page</a>.',
 					],
-					link: "https://www1.villanova.edu/villanova/fmo/ehs.html",
-					buttonText:
-						"Learn more about Villanova University's Department of Environmental\
-						Health and Safety",
+          actions:[
+            {
+              link: "https://www1.villanova.edu/villanova/fmo/ehs.html",
+              text:
+                  "Learn more about Villanova University's Department of Environmental\
+                  Health and Safety",
+            }
+          ],
 					icon: "VUSeal.png",
 					iconRight: "False",
 				},
@@ -77,8 +90,12 @@ export default {
 
             "During this time, I also served as a customer service representative for the school, taking tuition payments, selling merchandise, and guiding prospective students through the onboarding process. I also served as the school's information technology support. In this role, I assisted in the maintenance of the school's website, and also authored a Microsoft Access based database application for managing	student enrollment, promotion, and billing. This software solution	alleviated the need for hours of tedious work every month maintaining	hand-written records of student progress and payments.",
 					],
-					link: "https://hooverkarate.com",
-					buttonText: "Learn more about Hoover Karate Academy",
+          actions:[
+            {
+              link: "https://hooverkarate.com",
+              text: "Learn more about Hoover Karate Academy",
+            }
+          ],
 					icon: "HKA.png",
 					iconRight: "2",
 				},

@@ -59,8 +59,12 @@ export default {
 						"The project required, like most embedded systems, a fusion of hardware and	software work. It centered around a Raspberry Pi, which ran a minimized linux	operating system. The project code was authored in C++, and consisted of a number of subsystems responsible for various portions of the system's	operation. The project harnessed a number of publicly available libraries	to perform image processing and hardware interfaces, including the OpenCV library.",
 						"On the hardware side, the project required the use of an infrared camera,	as well as a photogate with custom logic to convert its output to values	appropriate for the Raspberry Pi's GPIO interface. It also required the design and manufacturing of several custom hardware mounts to affix the system components to the printer.",
 					],
-					link: "https://github.com/sdonchez/SeniorDesign",
-					buttonText: "Visit the project Github Repo",
+          actions:[
+            {
+              link: "https://github.com/sdonchez/SeniorDesign",
+              text: "Visit the project Github Repo",
+            }
+          ],
 					icon: "PrintCheck3D.jpg",
 					avatarSquare: true,
 				},
