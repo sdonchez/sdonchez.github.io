@@ -28,13 +28,20 @@ export default {
 
             "These goals are specifcally addressed in this thesis through in-depth exploration of several fundamental aspects of the architecture. The use of shared decryption engines allocated through a modifed Earliest Deadline First (EDF) scheduling algorithm is presented, which is tailored to work in real-time on aperiodic tasks. This enables a tremendous reduction in resource utilization on the FPGA fabric, enabling scalability that was previously unrealistic. Additionally, memory isolation logic and a trusted static bitstream are proposed, which protect tenants from malicious cotenants, as well as shift the trusted relationship from the CSP to the FPGA Vendor, whose sole fnancial incentive is to ensure the integrity of the tenant data. Finally, a brief discussion of Key-Aggregation Cryptography presents an overview of a little-discussed cryptosystem that has the potential to enable highly efficient IP confdentiality for tenants, without substantial overhead on the part of any party.",
           ],
-          link:
-              "mailto:steve@sdonchez.engineer?subject=Thesis Copy Request",
-          buttonText: "Request a Copy",
           /*noinspect*/
           /*noinspect*/
           icon: "VUENG.jpg",
           iconRight: "false",
+          actions:[
+            {
+              link: "mailto:steve@sdonchez.engineer?subject=Thesis Copy Request",
+              text: "Request a Copy"
+            },
+            {
+              link: "https://www.proquest.com/docview/2821495143",
+              text: " Access on ProQuest"
+            }
+          ]
         },
         {
           title: "Memory Isolation for Multi-Tenant Data Integrity in Cloud MPSoC FPGAs",
@@ -49,9 +56,12 @@ export default {
             "<span class='font-italic font-weight-bold'>Accolades:</span>",
             "<a href='./IEMCON22BestPaper.jpg' target='_blank'>Best Paper, VLSI and Microelectronic Circuit Embeedded Systems, IEEE IEMCON 2022</a>"
           ],
-          link:
-              "https://ieeexplore.ieee.org/document/9946490/",
-          buttonText: "View Paper on IEEExplore",
+          actions: [
+            {
+              link: "https://ieeexplore.ieee.org/document/9946490/",
+              text: "View Paper on IEEExplore",
+            }
+          ],
           /*noinspect*/
           icon: "IEMCON.png",
           iconRight: "2",
