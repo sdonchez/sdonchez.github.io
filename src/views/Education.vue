@@ -27,9 +27,14 @@ export default {
 
 						"Outside my curricular activities at Villanova, I was heavily	involved in Villanova University Tech Crew, an on campus event production	company. Additionally, I <a href='#/work'>worked</a> for Villanova's	Department of Environmental Health and Safety, providing web and asset management, database development and administration, and assorted related services.",
 					],
-					link:
-						"https://www1.villanova.edu/content/university/engineering/academic-programs/departments/electrical-computer.html",
-					buttonText: "Learn more about Villanova Computer Engineering",
+          actions: [
+            {
+              link:
+                  "https://www1.villanova.edu/content/university/engineering/academic-programs/departments/electrical-computer.html",
+              text: "Learn more about Villanova Computer Engineering",
+            }
+          ],
+
           /*noinspect*/
 					icon: "VUENG.jpg",
 					iconRight: "false",
@@ -44,8 +49,13 @@ export default {
 
 						"Outside of class, a large portion of my time in High School at LVA was	occupied by a club I was heavily invested in, the	<a href='https://tsaweb.org/' target='_blank'>Technology Student Association.</a>As a member of TSA, I worked to create unique physical products, as well	as develop my problem solving skills. I also served as the Pennsylvania	State Historian for the organization. This position required me to produce	all multimedia content for the statewide organization, as well as work alongside the other 7 state officers to plan and execute our 2,000 person	state conference.",
 					],
-					link: "https://www.lvacademy.org/",
-					buttonText: "Learn more about Lehigh Valley Academy",
+          actions:
+          [
+            {
+              link: "https://www.lvacademy.org/",
+              text: "Learn more about Lehigh Valley Academy",
+            }
+          ],
 					icon: "LVAJaguar.png",
 					iconRight: "2",
 				},

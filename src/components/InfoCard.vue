@@ -27,19 +27,19 @@
 					<div v-for="para in card.text" :key="para">
 						<p v-html="para"></p>
 					</div>
-					<p v-if="card.link" class = "text-center">
-						<b-button variant="primary" :href="card.link" target="_blank">{{
-							card.buttonText
-						}}</b-button>
-					</p>
+          <p v-if="card.actions" class = "text-center">
+            <b-button v-for="action in card.actions" :key="action" variant="primary" :href="action.link" target="_blank" class="mx-2">{{
+                action.text
+              }}</b-button>
+          </p>
 				</b-col>
         <b-col lg="12" v-else>
           <div v-for="para in card.text" :key="para">
             <p v-html="para"></p>
           </div>
-          <p v-if="card.link" class = "text-center">
-            <b-button variant="primary" :href="card.link" target="_blank">{{
-                card.buttonText
+          <p v-for="action in card.actions" :key="action" class = "text-center">
+            <b-button variant="primary" :href="action.link" target="_blank">{{
+                action.text
               }}</b-button>
           </p>
         </b-col>
