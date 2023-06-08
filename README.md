@@ -1,4 +1,4 @@
-# sdonchez.github.io [![Build Status](https://travis-ci.org/sdonchez/sdonchez.github.io.svg?branch=sources)](https://travis-ci.org/sdonchez/sdonchez.github.io)
+# sdonchez.github.io [![Build Status](https://github.com/sdonchez/sdonchez.github.io/actions/workflows/VueDeployToPages.yml/badge.svg)](https://github.com/sdonchez/sdonchez.github.io/actions/workflows/VueDeployToPages.yml) [![CodeQL](https://github.com/sdonchez/sdonchez.github.io/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/sdonchez/sdonchez.github.io/actions/workflows/github-code-scanning/codeql)
 
 ## Welcome to the repo for my personal website!
 
