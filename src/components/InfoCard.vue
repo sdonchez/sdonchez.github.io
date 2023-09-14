@@ -28,7 +28,7 @@
 						<p v-html="para"></p>
 					</div>
           <p v-if="card.actions" class = "text-center">
-            <b-button v-for="action in card.actions" :key="action" variant="primary" :href="action.link" target="_blank" class="mx-2">{{
+            <b-button v-for="action in card.actions" :key="action" variant="primary" :href="action.link" target="_blank" class="mx-2 mt-2">{{
                 action.text
               }}</b-button>
           </p>
@@ -38,7 +38,7 @@
             <p v-html="para"></p>
           </div>
           <p v-for="action in card.actions" :key="action" class = "text-center">
-            <b-button variant="primary" :href="action.link" target="_blank">{{
+            <b-button variant="primary" :href="action.link" target="_blank" class="mt-1">{{
                 action.text
               }}</b-button>
           </p>
