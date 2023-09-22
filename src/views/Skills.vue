@@ -18,6 +18,7 @@ export default {
       cards: [
         {
           title: "Technical Skills",
+          slug: "Technical",
           text: [
             "Over the course of my academic and professional career, I have had the fortune to acquire a variety of skills and experiences across the spectrum of Systems and Computer Engineering:",
           ],
@@ -83,6 +84,7 @@ export default {
         },
         {
           title: "Creative Skills",
+          slug: "Creative",
           text: [
             "I have also acquired a set of creative skills, ranging from multimedia production to live audio, video, and lighting:",
           ],

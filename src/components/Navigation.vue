@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<b-navbar toggleable="lg" class="navbar-dark bg-primary px-5">
-			<b-navbar-brand href="/#/"><b-avatar src="favicon-32x32.png" class="mx-2" size="32px"></b-avatar>Stephen G. Donchez</b-navbar-brand>
+			<b-navbar-brand href="/"><b-avatar src="favicon-32x32.png" class="mx-2" size="32px"></b-avatar>Stephen G. Donchez</b-navbar-brand>
 
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -41,6 +41,7 @@ export default {
 				{ path: "/education", name: "Education", exact: false },
         { path: "/publications", name: "Publications", exact: false },
         { path: "/skills", name: "Skills", exact: false },
+        { path: "/certifications", name: "Certifications", exact: false}
 				//{ path: "/blog", name: "Blog", exact: false },
 			],
 		}

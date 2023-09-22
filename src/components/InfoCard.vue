@@ -1,5 +1,5 @@
 <template>
-	<b-card class="my-4 w-100 h-100">
+	<b-card class="my-4 w-100 h-100" :id=card.slug>
 		<b-card-header>
 			<h3 class="text-center">
 				{{ card.title }}

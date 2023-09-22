@@ -19,6 +19,7 @@ export default {
         {
           title: "An Efficient and Secure Architecture for FPGA-Based Multi-Tenant Cloud Applications",
           subtitle1: "Master's Thesis, Villanova University",
+          slug: "thesis",
           text: [
             "<span class='font-italic font-weight-bold'>Abstract:</span>",
 
@@ -46,6 +47,7 @@ export default {
         {
           title: "Memory Isolation for Multi-Tenant Data Integrity in Cloud MPSoC FPGAs",
           subtitle1: "Conference Article, IEEE International Conference and Workshop on Computing and Communication (IEMCON) 2022",
+          slug: "IEMCON",
           text: [
             "<span class='font-italic font-weight-bold'>Abstract:</span>",
             "Multi-processing System-on-Chip (MPSoC) field-programmable gate arrays (FPGAs) are increasingly being employed in cloud computing platforms to accelerate many domain-specific applications. In cloud computing, FPGAs are constantly shared among multiple tenants dynamically by leveraging the partial reconfiguration property of FPGAs. Such devices are embedded with hundreds of large and configurable memory blocks, which offer the most flexible and high-performance memory resources for processor cores and IPs. The bare-metal access model of the unprotected memory system of MPSoC FPGAs has raised various security and privacy concerns. In this paper, we present the design and implementation of our novel run-time memory protection scheme based on hardware isolation for cloud MPSoC FPGAs. Experimental results on a Xilinx Zynq Ultrascale+ development board demonstrate our protection design successfully limits each tenant to only their allocated portions of the memory space and protects memory against programming errors and malicious attacks.",

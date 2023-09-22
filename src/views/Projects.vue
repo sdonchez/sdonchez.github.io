@@ -19,8 +19,9 @@ export default {
         {
           title: "An Efficient and Secure Architecture for FPGA-based Multi-Tenant Cloud Applications",
           subtitle1:"Master's Research",
+          slug: "Masters",
           text:[
-              "I recently completed my thesis, which focused on enabling the use of FPGAs in a cloud environment. The work is still undergoing review prior to publication and therefore the body of my thesis is not available in the public domain at this time, but the abstract can be found on my <a href=\"#/publications\">publications page</a>. If this work intrests you, I'm happy to discuss it and/or see about making the full text available to you. Please don't hesitate to contact me if that's the case.",
+              "I recently completed my thesis, which focused on enabling the use of FPGAs in a cloud environment. The work is still undergoing review prior to publication and therefore the body of my thesis is not available in the public domain at this time, but the abstract can be found on my <a href=\"/publications\">publications page</a>. If this work intrests you, I'm happy to discuss it and/or see about making the full text available to you. Please don't hesitate to contact me if that's the case.",
           ],
           icon:"ConceptDiagramSimplified.png",
           avatarSquare: true
@@ -28,6 +29,7 @@ export default {
 				{
 					title: "ChemCAT",
 					subtitle1: "Villanova University Chemical Container and Asset Tracker",
+          slug: "ChemCAT",
 					text: [
 						"Villanova's Chemical Container and Asset Tracker (ChemCAT) system is	a recent project to provide comprehensive cradle-to-grave tracking of the	university's chemical assets. The project maintains a history of every chemical asset's movement throughout the university from its procurement through its distribution, use, and disposal. It also provides the capacity to look up the Safety Data Sheet (SDS) information associated with each chemical, as well as the	ability to generate reports on individual assets or aggregate data.",
 
@@ -41,6 +43,7 @@ export default {
 				{
 					title: "VUTC Website Redesign",
 					subtitle1: "Villanova University Tech Crew",
+          slug: "VUTC-site",
 					text: [
 						"Beginning in the spring of 2020, I, alongside a group of like minded students,	began a redesign of VUTC's website, through which all aspects of the	organization's operations are managed. The current site (as the redesign is still in progress following several periods of paused work) was developed in PHP without the use of any framework or	cohesive style, and the effort of maintaining it was beginning to exceed the	effort involved in re-writing it from the ground up.",
 
@@ -53,6 +56,7 @@ export default {
 				{
 					title: "PrintCheck3D",
 					subtitle1: "Senior Capstone Project",
+          "slug": "PrintCheck3D",
 					text: [
 						"Villanova's ECE capstone project is a three semester, group based experience	that is designed to provide students with experience in the implementation of	a concept under real world circumstances. For our capstone project, my team	worked to implement what became the PrintCheck3D system, a system that monitored the college's fleet of 3D Printers to detect failed printjobs,	and took action on those failures in order to preserve the print where possible, and otherwise to stop the print in order to prevent damage to the printer or	the waste of additional consumable resources.",
 
@@ -71,6 +75,7 @@ export default {
 				{
 					title: "HKA Database Management System",
 					subtitle1: "Hoover Karate Academy",
+          slug: "HKADB",
 					text: [
 						"One of my earliest major development projects, the HKA Database Management	System was designed in response to a drastic need for improvement to the	school's pre-existing system for tracking student records. It affords users	a simple, intuitive interface for managing almost all aspects of the school's	operations, including attendance, student progression through the various			ranks, tuition payment, and the generation of assorted administrative	paperwork. It serves to automate a number of process that were previously done	by hand, saving considerable time for the school's administrative staff.",
 

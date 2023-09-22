@@ -16,10 +16,11 @@ export default {
 		return {
 			cards: [
 				{
-					title: "L3 Harris Technologies (Harris Corporation)",
+					title: "L3Harris Technologies (Harris Corporation)",
           subtitle1: "Member of the Engineering Staff/Systems Engineer (June 2022 - Present)",
 					subtitle2: "Systems Engineering Intern (Summer 2020 - 2022, Summer 2019)",
 					subtitle3: "Software Engineering Intern (Summer 2018)",
+          slug: "L3H",
 					text: [
 						"The summer after my sophomore year of college, I interned with what was then Harris Corporation (now L3Harris Technologies) as a software engineering intern. In this role, I aided in the development of embedded software across all phases of the design process, from operating	environment configuration to application development to testing and	authoring documentation.",
 
@@ -43,6 +44,7 @@ export default {
 					title: "Villanova University Tech Crew",
 					subtitle1: "President and Head Technician (2019)",
 					subtitle2: "Various Roles (2016-2022)",
+          slug: "VUTC",
 					text: [
 						"Throughout my time in college, I was heavily involved in Villanova	University Tech Crew, a one of a kind on-campus event production organization. VUTC provides high quality Audio, Lighting, and Video production services to the Villanova Community at affordable rates, and is	heavily involved in almost every event that occurs on campus. Notable	events VUTC provides services for include the freshman orientation	program, Special Olympics Fall Festival (the largest student run special olympics event in the world), NOVAdance (a 12 hour dance marathon to	benefit pediatric cancer patients), and A Capella Palooza (a student A	Capella showcase featuring full concert-style production).",
 
@@ -62,12 +64,13 @@ export default {
 				{
 					title: "Villanova University Department of Environmental Health and Safety",
 					subtitle1: "Student Worker (2016-2020)",
+          slug: "EHS",
 					text: [
 						"Throughout my undergraduate education, I worked with the university's	department of environmental health and safety, providing a wide variety	of technical services (and some decidedly less technical ones, such as testing safety showers). I began my time with the department aiding in	the generation of presentation aids and similar content. However, shortly	after becoming an employee, I was assigned the responsibility of redesigning	the department's website to facilitate easier navigation and improve cohesion	with the greater university's site. ",
 
 						"From there, I transitioned to an extensive period of database work, in which	I created a number of database applications for tracking various aspects of	the university's operations. These applications were based on Microsoft	Access, and included comprehensive authentication and auditing capabilities	in addition to the usual data input report generation capabilities.",
 
-						'In the last two years of my undergraduate career, I worked with the department in conjunction with another student worker to develop an in house chemical asset management	solution. That project (and others) is described in detail on my <a href="#/projects">projects page</a>.',
+						'In the last two years of my undergraduate career, I worked with the department in conjunction with another student worker to develop an in house chemical asset management	solution. That project (and others) is described in detail on my <a href="/projects">projects page</a>.',
 					],
           actions:[
             {
@@ -85,6 +88,7 @@ export default {
 					subtitle1: "Instructor (2012-Present)",
 					subtitle2:
 						"Customer Service Representative and Information Technology Support (2012-present)",
+          slug: "HKA",
 					text: [
 						'I\'ve been involved in the martial arts since I was 6 years old. When I entered high school, I was given the position of Junior Instructor at Hoover	Karate Academy. In this role, I served as an assistant instructor in classes	of all sizes, age groups, and experience levels. When I turned 18, I was	promoted to the rank of "Junior-Senior Instructor", and began teaching my	own classes. I greatly enjoying working with the "junior" or teenage	students, however I have also taught classes from pre-k through adult.',
 

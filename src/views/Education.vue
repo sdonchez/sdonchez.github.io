@@ -20,6 +20,7 @@ export default {
 					title: "Villanova University",
 					subtitle1: "Bachelor of Science, Computer Engineering (2016-2020)",
 					subtitle2: "Master of Science, Computer Engineering (2020-2022)",
+          clug: "VU",
 					text: [
 						"I earned my Bachelor of Science in Computer Engineering from Villanova	University's College of Engineering between August 2016 and May of 2020. During this time, I also completed a minor in Computer Science, and	worked on <a href='#/projects'>a number of interesting projects</a>.",
 
@@ -42,6 +43,7 @@ export default {
 				{
 					title: "Lehigh Valley Academy",
 					subtitle1: "High School (2012-2016)",
+          slug: "HKA",
 					text: [
 						"From 2012 to 2016, I attended Lehigh Valley Academy Regional Charter	School for my high school degree. LVA is actually a K-12 Charter School, and I attended there for all 13 years of my primary and secondary education.",
 
