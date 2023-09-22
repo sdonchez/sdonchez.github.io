@@ -1,7 +1,7 @@
 <template>
-	<div id="app" style="overflow-x: hidden;">
+	<div id="app" style="overflow-x: hidden;" class="min-vh-100 d-flex flex-column">
 		<navigation></navigation>
-		<router-view />
+		<router-view class="flex-fill"/>
 		<SiteFooter></SiteFooter>
 	</div>
 </template>

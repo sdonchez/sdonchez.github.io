@@ -1,6 +1,6 @@
 <!--suppress SpellCheckingInspection -->
 <template>
-	<div>
+	<footer>
 		<b-row class="bg-secondary px-5 py-3 text-center">
 			<b-col lg="6" class="text-lg-left">
 				Copyright &copy; 2020&mdash;{{ currentYear }}
@@ -13,7 +13,7 @@
 				<Icon v-for="site in tools" :key="site.link" :platform="site" />
 			</b-col>
 		</b-row>
-	</div>
+	</footer>
 </template>
 
 <script>
