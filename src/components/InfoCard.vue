@@ -17,18 +17,19 @@
 		<b-card-body>
 			<b-row align-v="center">
 				<b-col lg="4" class="text-center py-4" :order-lg="card.iconRight">
-					<b-avatar v-if="card.icon"
-						:src="require(`@/assets/${card.icon}`)"
-						size="15rem"
-						:square="card.avatarSquare"
-					></b-avatar>
+					<picture>
+						<source type="image/webp" :srcset="require(`@/assets/${card.icon.split('.').slice(0, -1).join('.')}-256.webp`)">
+						<source type="image/jpeg" :srcset="require(`@/assets/${card.icon.split('.').slice(0, -1).join('.')}-256.${card.icon.split('.').slice(-1)}`)">
+						<img :src="require(`@/assets/${card.icon.split('.').slice(0, -1).join('.')}-256.${card.icon.split('.').slice(-1)}`)"
+						:class="{ 'rounded-circle': !card.avatarSquare, 'img-fluid': true }" width="320px" height="320px" :alt="card.alt">
+					</picture>
 				</b-col>
 				<b-col lg="8" v-if="card.icon">
 					<div v-for="para in card.text" :key="para">
 						<p v-html="para"></p>
 					</div>
           <p v-if="card.actions" class = "text-center">
-            <b-button v-for="action in card.actions" :key="action" variant="primary" :href="action.link" target="_blank" class="mx-2 mt-2">{{
+            <b-button v-for="action in card.actions" :key="action.link" variant="primary" :href="action.link" target="_blank" class="mx-2 mt-2">{{
                 action.text
               }}</b-button>
           </p>
@@ -37,7 +38,7 @@
           <div v-for="para in card.text" :key="para">
             <p v-html="para"></p>
           </div>
-          <p v-for="action in card.actions" :key="action" class = "text-center">
+          <p v-for="action in card.actions" :key="action.link" class = "text-center">
             <b-button variant="primary" :href="action.link" target="_blank" class="mt-1">{{
                 action.text
               }}</b-button>
