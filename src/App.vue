@@ -36,13 +36,14 @@ export default {
 
 <style lang="scss">
 //noinspection CssUnknownTarget
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 //noinspection CssUnknownTarget
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
 #app {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: "Roboto", "Roboto Slab",serif;
+	font-display: swap;
 }
 a:hover {
 	color: white;

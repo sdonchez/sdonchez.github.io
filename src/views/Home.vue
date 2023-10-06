@@ -2,10 +2,14 @@
 	<b-container fluid="true">
 		<b-aspect class="panel" id="welcome-panel" aspect="16:7" align-v="center">
 			<b-row align-h="center" align-v="center" class="py-4 h-100">
-				<b-col class="headshot">
-					<b-avatar src="./../assets/HeadshotCrop.jpg" size="20rem"></b-avatar>
+				<b-col class="headshot" sm="12" md="6">
+					<picture>
+						<source type="image/webp" srcset="./../assets/HeadshotCrop-512.webp">
+						<source type="image/jpeg" srcset="./../assets/HeadshotCrop-512.jpg">
+						<img src="./../assets/HeadshotCrop-256.jpg" class="img-fluid rounded-circle" width="320px" height="360px" alt="Headshot Photo of Stephen Donchez">
+					</picture>
 				</b-col>
-				<b-col>
+				<b-col sm="12" md="6">
 					<h1 class="display-1 welcome-text">Hi, I'm Stephen Donchez</h1>
 				</b-col>
 			</b-row>
@@ -36,12 +40,15 @@ export default {
 <style lang="scss" scoped>
 html {
 	font-family: "roboto",serif;
+	font-display: swap;
 }
 h1 {
 	font-family: "roboto slab", serif;
+	font-display: swap;
 }
 h2 {
 	font-family: "roboto slab", serif;
+	font-display: swap;
 	font-size: 4rem;
 	padding-top: 2rem !important;
 }
@@ -72,13 +79,29 @@ p {
 }
 
 #welcome-panel {
-	background-image: url("./../assets/oreo.jpg");
+	background-image: url("./../assets/oreo.jpg");  /* fallback */
+	background-image: image-set(
+		url("./../assets/oreo-1080.webp") 1x type("image/webp"),
+		url("./../assets/oreo-1920.webp") 2x type("image/webp"),
+		url("./../assets/oreo-3840.webp") 3x type("image/webp"),
+		url("./../assets/oreo-1080.jpg") 1x type("image/jpeg"),
+		url("./../assets/oreo-1920.jpg") 2x type("image/jpeg"),
+		url("./../assets/oreo-3840.jpg") 3x type("image/jpeg"),
+	);
+	background-image: -webkit-image-set(
+		url("./../assets/oreo-1080.webp") 1x type("image/webp"),
+		url("./../assets/oreo-1920.webp") 2x type("image/webp"),
+		url("./../assets/oreo-3840.webp") 3x type("image/webp"),
+		url("./../assets/oreo-1080.jpg") 1x type("image/jpeg"),
+		url("./../assets/oreo-1920.jpg") 2x type("image/jpeg"),
+		url("./../assets/oreo-3840.jpg") 3x type("image/jpeg"),
+	);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 	.headshot {
 		text-align: center;
 	}
