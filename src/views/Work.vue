@@ -12,6 +12,12 @@ export default {
 	components: {
 		InfoCard,
 	},
+	metaInfo:{
+		title: "Work Experience",
+		meta: [
+			{ name: 'description', content: "Stephen Donchez's work experience, including time at L3Harris Technologies (formerly Harris Corporation), Villanova University Tech Crew, Villanova's Department of Environmental Health and Safety, and Hoover Karate Academy." }
+		]
+	},
 	data: () => {
 		return {
 			cards: [

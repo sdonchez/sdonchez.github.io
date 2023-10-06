@@ -13,6 +13,12 @@ export default {
 	components: {
 		CertificationCard,
 	},
+	metaInfo:{
+		title: "Certifications",
+		meta: [
+			{ name: 'description', content: "Stephen Donchez's certifications, including his Object Management Group (OMG)-Certified SysML Professional (OCSMP)-Model User Certification" }
+		]
+	},
 	data: () => {
 		return {
 			cards: [

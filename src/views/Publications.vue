@@ -13,6 +13,12 @@ export default {
 	components: {
 		InfoCard,
 	},
+	metaInfo:{
+		title: "Publications",
+		meta: [
+			{ name: 'description', content: "Stephen Donchez's publications, including his Thesis (An Efficient and Secure Architecture for FPGA-Based Multi-Tenant Cloud Applications) and his IEEE publication (Memory Isolation for Multi-Tenant Data Integrity in Cloud MPSoC FPGAs)." }
+		]
+	},
 	data: () => {
 		return {
 			cards: [

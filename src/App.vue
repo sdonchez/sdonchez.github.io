@@ -14,7 +14,16 @@ import SiteFooter from "@/components/SiteFooter"
 // noinspection JSUnusedGlobalSymbols
 export default {
 	name: "app",
-	title: "Stephen Donchez",
+	metaInfo: {
+		titleTemplate: '%s | Stephen Donchez',
+		htmlAttrs: {
+			lang: 'en-us'
+		},
+		meta: [
+			{ charset: 'utf-8' },
+			{ name: 'viewport', content: 'width=device-width, initial-scale=1' }
+		]
+	},
 	components: {
 		Navigation,
 		SiteFooter,

@@ -13,6 +13,12 @@ export default {
 	components: {
 		InfoCard,
 	},
+	metaInfo:{
+		title: "Education",
+		meta: [
+			{ name: 'description', content: "Stephen Donchez's education history, including his Bachelors and MAsters from Villanova University, as well as his high school education at Lehigh Valley Academy." }
+		]
+	},
 	data: () => {
     return {
 			cards: [

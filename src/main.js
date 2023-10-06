@@ -2,6 +2,7 @@ import '@babel/polyfill'
 import 'mutationobserver-shim'
 import Vue from 'vue'
 import './plugins/bootstrap-vue'
+import VueMeta from 'vue-meta'
 import App from './App.vue'
 import router from './router'
 import VueGtag from "vue-gtag";
@@ -35,6 +36,8 @@ Vue.use(VueGtag, {
 		id: "G-TT76YTVCYJ"
 	}
 }, router);
+
+Vue.use(VueMeta)
 
 Vue.prototype.$resumeFile = "SDonchezResumeFeb23.pdf"
 

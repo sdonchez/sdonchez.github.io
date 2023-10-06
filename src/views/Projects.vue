@@ -13,6 +13,12 @@
 		components: {
 			InfoCard,
 		},
+		metaInfo:{
+			title: "Projects",
+			meta: [
+			{ name: 'description', content: "Stephen Donchez's projects, including his research on FPGAs, various web applications, Capstone project, and Database Management Application." }
+		]
+		},
 		data: () => {
 			return {
 				cards: [
