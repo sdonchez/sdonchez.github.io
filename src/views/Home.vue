@@ -6,7 +6,7 @@
 					<picture>
 						<source type="image/webp" srcset="./../assets/HeadshotCrop-512.webp">
 						<source type="image/jpeg" srcset="./../assets/HeadshotCrop-512.jpg">
-						<img src="./../assets/HeadshotCrop-256.jpg" class="img-fluid rounded-circle" width="320px" height="360px" alt="Headshot Photo of Stephen Donchez">
+						<img src="./../assets/HeadshotCrop-256.jpg" class="img-fluid rounded-circle" width="320px" height="320px" alt="Headshot Photo of Stephen Donchez">
 					</picture>
 				</b-col>
 				<b-col sm="12" md="6">
