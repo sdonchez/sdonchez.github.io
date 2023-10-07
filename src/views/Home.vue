@@ -7,7 +7,7 @@
 						<source type="image/jpeg" srcset="./../assets/HeadshotCrop-512.jpg">
 						<img src="./../assets/HeadshotCrop-256.jpg" class="img-fluid rounded-circle mx-5" width="320px" height="320px" alt="Headshot Photo of Stephen Donchez" sm="12">
 					</picture>
-					<h1 class="display-1 text-center welcome-text">Hi, I'm Stephen Donchez</h1>
+					<h1 class="display-1 text-center welcome-tex mx-5">Hi, I'm Stephen Donchez</h1>
 			</b-row>
 		</b-aspect>
 		<b-row class="bg-primary px-5">
