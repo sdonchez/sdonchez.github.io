@@ -2,16 +2,12 @@
 	<b-container fluid="true">
 		<b-aspect class="panel" id="welcome-panel" aspect="16:7" align-v="center">
 			<b-row align-h="center" align-v="center" class="py-4 h-100">
-				<b-col class="headshot" sm="12" md="6">
 					<picture>
 						<source type="image/webp" srcset="./../assets/HeadshotCrop-512.webp">
 						<source type="image/jpeg" srcset="./../assets/HeadshotCrop-512.jpg">
-						<img src="./../assets/HeadshotCrop-256.jpg" class="img-fluid rounded-circle" width="320px" height="320px" alt="Headshot Photo of Stephen Donchez">
+						<img src="./../assets/HeadshotCrop-256.jpg" class="img-fluid rounded-circle mx-5" width="320px" height="320px" alt="Headshot Photo of Stephen Donchez" sm="12">
 					</picture>
-				</b-col>
-				<b-col sm="12" md="6">
-					<h1 class="display-1 welcome-text">Hi, I'm Stephen Donchez</h1>
-				</b-col>
+					<h1 class="display-1 text-center welcome-text">Hi, I'm Stephen Donchez</h1>
 			</b-row>
 		</b-aspect>
 		<b-row class="bg-primary px-5">
@@ -61,12 +57,6 @@ h2 {
 p {
 	font-size: 1.4rem;
 }
-.headshot {
-	text-align: right;
-}
-.welcome-text {
-	text-align: left;
-}
 
 .panel {
 	margin: 0;
@@ -113,13 +103,19 @@ p {
 	}
 
 	.welcome-text {
-		text-align: center;
+		font-size: calc(4rem + 0.6vw) !important
 	}
 	h2 {
-		font-size: 3rem !important;
+		// font-size: 3rem !important;
+		font-size: calc(2rem + 0.9vw);
 	}
 	.copy {
-		padding: 1rem !important;
+	padding: calc(2vw);
+
+	p {
+		font-size: calc(.8rem + 0.9vw);
 	}
+}
+
 }
 </style>
