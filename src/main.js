@@ -39,7 +39,7 @@ Vue.use(VueGtag, {
 
 Vue.use(VueMeta)
 
-Vue.prototype.$resumeFile = "SDonchezResumeFeb23.pdf"
+Vue.prototype.$resumeFile = "SDonchezResumeDec23.pdf"
 
 new Vue({
 	router,
