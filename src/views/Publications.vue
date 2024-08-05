@@ -71,10 +71,32 @@ export default {
 						}
 					],
 					/*noinspect*/
-					icon: "IEMCON.png",
+					icon: "IEEECS.png",
 					iconRight: "2",
-					Alt: "IEMCON Logo"
+					Alt: "IEEE Computer Society Logo"
 				},
+				{
+					title: "Dynamic Scheduling of AES Cores for Aperiodic Tasks on Multi-tenant Cloud FPGAs",
+					subtitle1: "Conference Article, IEEE International Conference on Trust, Security, and Privacy in Computing and Communications (TrustCom) 2023",
+					slug: "TrustCom",
+					text: [
+						"<span class='font-italic font-weight-bold'>Abstract:</span>",
+						"Field Programmable Gate Arrays (FPGAs) have long been utilized in systems benefiting from hardware acceleration of processes unsuitable for execution on a traditional processor. Accordingly, as much of the world pivots from on-site datacenters and computing resources to hybrid or cloud based platforms, Multi-processing System-on-Chip (MPSoC) FPGAs are increasingly being employed in cloud computing systems to speed up many computation-intensive applications. In cloud computing, multi-tenant FPGAs are constantly space- and time-shared among multiple tenants dynamically by leveraging the partial reconfiguration property of FPGAs. With increasing security and privacy concerns introduced by these memory-based volatile devices, most countermeasures rely on encryption and decryption engines such as AES (Advanced Encryption Standard) cores for user data protection. However, their high-resource requirements and long latency limit the number of such engines that can be implemented in hardware. They often become a performance bottleneck during peak time. In this paper, we propose a scheduling algorithm for aperiodic tasks to dynamically share multiple AES cores and hence to improve their utilization and overall system performance. Extensive experimental measurements on an FPGA development board featuring a Xilinx Ultrascale+ FPGA demonstrate the efficacy of our mechanism.",
+
+						"<span class='font-italic font-weight-bold'>Index Terms:</span>",
+						"FPGA, Security, Scheduling, Implementation, AES, Multi-tenancy, Cloud Computing"
+					],
+					actions: [
+						{
+							link: "https://ieeexplore.ieee.org/document/10538753/",
+							text: "View Paper on IEEExplore",
+						}
+					],
+					/*noinspect*/
+					icon: "IEEECS.png",
+					Alt: "IEEE Computer Society Logo"
+
+				}
 			],
 		}
 	},
