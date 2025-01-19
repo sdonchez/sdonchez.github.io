@@ -16,6 +16,7 @@ import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faNpm } from '@fortawesome/free-brands-svg-icons'
+import { faCloudflare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
@@ -27,6 +28,7 @@ library.add(faBootstrap)
 library.add(faFontAwesome)
 library.add(faStackOverflow)
 library.add(faNpm)
+library.add(faCloudflare)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
@@ -39,7 +41,7 @@ Vue.use(VueGtag, {
 
 Vue.use(VueMeta)
 
-Vue.prototype.$resumeFile = "SDonchezResumeDec23.pdf"
+Vue.prototype.$resumeFile = "SDonchezResumeDec24.pdf"
 
 new Vue({
 	router,

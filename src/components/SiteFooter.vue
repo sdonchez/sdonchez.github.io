@@ -48,10 +48,10 @@ export default {
 			],
 			tools: [
 				{
-          link: "https://vuejs.org",
-          tooltip: "VueJS",
-          iconType: "fab",
-          icon: "vuejs" },
+					link: "https://vuejs.org",
+					tooltip: "VueJS",
+					iconType: "fab",
+					icon: "vuejs" },
 				{
 					link: "https://github.com/sdonchez/sdonchez.github.io",
 					tooltip: "GitHub",
@@ -70,7 +70,18 @@ export default {
 					iconType: "fab",
 					icon: "font-awesome",
 				},
-				{ link: "https://npmjs.com", tooltip: "npm", iconType: "fab", icon: "npm" },
+				{
+					link: "https://cloudflare.com/",
+					tooltip: "Cloudflare",
+					iconType: "fab",
+					icon: "cloudflare"
+				},
+				{ 
+					link: "https://npmjs.com", 
+					tooltip: "npm", 
+					iconType: "fab", 
+					icon: "npm" 
+				},
 				{
 					link: "https://stackoverflow.com/",
 					tooltip: "Stack Overflow (because what project is complete without it)",
