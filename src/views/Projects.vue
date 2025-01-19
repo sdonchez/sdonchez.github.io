@@ -27,7 +27,7 @@
 						subtitle1:"Master's Research",
 						slug: "Masters",
 						text: [
-							"I recently completed my thesis, which focused on enabling the use of FPGAs in a cloud environment. The work is still undergoing review prior to publication and therefore the body of my thesis is not available in the public domain at this time, but the abstract can be found on my <a href=\"/publications\">publications page</a>. If this work intrests you, I'm happy to discuss it and/or see about making the full text available to you. Please don't hesitate to contact me if that's the case.",
+							"I recently completed my thesis, which focused on enabling the use of FPGAs in a cloud environment. The complete work is available on <a href=\"https://www.proquest.com/docview/2821495143\">ProQuest</a>, but the abstract and a link to the GitHub repository containing the corresponding technical artifacts can be found on my <a href=\"/publications\">publications page</a>. If this work interests you, I'm happy to discuss it and/or see about making the full text available to you. Please don't hesitate to contact me if that's the case.",
 						],
 						icon:"ConceptDiagramSimplified.png",
 						avatarSquare: true,
