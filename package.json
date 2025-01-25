@@ -1,6 +1,6 @@
 {
   "name": "sdonchez.github.io",
-  "version": "1.10",
+  "version": "1.10.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
