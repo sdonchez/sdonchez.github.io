@@ -1,26 +1,50 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import { createRouter as _createRouter, createWebHistory } from 'vue-router'
 
-const WorkView = () => import('../views/Work.vue')
-const ProjectsView = () => import('../views/Projects.vue')
-const EducationView = () => import('../views/Education.vue')
-const PublicationsView = () => import('../views/Publications.vue')
-const SkillsView = () => import('../views/Skills.vue')
-const CertificationsView = () => import('../views/Certifications.vue')
+Vue.use(VueRouter)
 
-export function createRouter() {
-	return _createRouter({
-		history: createWebHistory(),
-		scrollBehavior: () => ({ top: 0 }),
-		routes: [
-			{ path: '/', name: 'Home', component: Home },
-			{ path: '/work', name: 'Work Experience', component: WorkView },
-			{ path: '/projects', name: 'Projects', component: ProjectsView },
-			{ path: '/education', name: 'Education', component: EducationView },
-			{ path: '/publications', name: 'Publications', component: PublicationsView },
-			{ path: '/skills', name: 'Skills', component: SkillsView },
-			{ path: '/certifications', name: 'Certifications', component: CertificationsView },
+const routes = [
+	{
+		path: '/',
+		name: 'Home',
+		component: Home
+	},
+	{
+		path: '/work',
+		name: 'Work Experience',
+		component: () => import('../views/Work.vue')
+	},
+	{
+		path: '/projects',
+		name: 'Projects',
+		component: () => import('../views/Projects.vue')
+	},
+	{
+		path: '/education',
+		name: 'Education',
+		component: () => import('../views/Education.vue')
+	},
+	{
+		path: '/publications',
+		name: 'Publications',
+		component: () => import('../views/Publications.vue')
+	},
+	{
+		path: '/skills',
+		name: 'Skills',
+		component: () => import('../views/Skills.vue')
+	},
+	{
+		path: '/certifications',
+		name: 'Certifications',
+		component: () => import('../views/Certifications.vue')
+	}
+]
 
-		]
-	})
-}
+const router = new VueRouter({
+	mode: 'history',
+	routes
+})
+
+export default router
