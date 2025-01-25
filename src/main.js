@@ -1,10 +1,11 @@
+import { createApp} from 'vue'
+import { configureCompat } from 'vue'
 import '@babel/polyfill'
 import 'mutationobserver-shim'
-import Vue from 'vue'
-import './plugins/bootstrap-vue'
+import BootstrapVue from './plugins/bootstrap-vue'
 import VueMeta from 'vue-meta'
 import App from './App.vue'
-import router from './router'
+import { createRouter } from './router'
 import VueGtag from "vue-gtag";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -29,21 +30,28 @@ library.add(faFontAwesome)
 library.add(faStackOverflow)
 library.add(faNpm)
 library.add(faCloudflare)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-Vue.config.productionTip = false
+configureCompat({
+	MODE: 2
+})
 
-Vue.use(VueGtag, {
+const router = createRouter()
+
+const app = createApp(App)
+
+app.use(router)
+app.use(BootstrapVue)
+
+app.component('font-awesome-icon', FontAwesomeIcon)
+app.use(VueGtag, {
 	config: {
 		id: "G-TT76YTVCYJ"
 	}
-}, router);
+});
 
-Vue.use(VueMeta)
+app.use(VueMeta, { refreshOnceOnNavigation: true })
 
-Vue.prototype.$resumeFile = "SDonchezResumeDec24.pdf"
+app.config.globalProperties.$resumeFile = "SDonchezResumeDec24.pdf"
 
-new Vue({
-	router,
-	render: h => h(App)
-}).$mount('#app')
+
+app.mount('#app')
