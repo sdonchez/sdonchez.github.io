@@ -1,5 +1,4 @@
-import { createApp} from 'vue'
-import { configureCompat } from 'vue'
+import { createApp, configureCompat} from 'vue'
 import '@babel/polyfill'
 import 'mutationobserver-shim'
 import BootstrapVue from './plugins/bootstrap-vue'
